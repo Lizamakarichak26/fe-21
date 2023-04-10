@@ -5,9 +5,11 @@
     padding-bottom: 128px;
 }
 .container {
+   width: 1136px;
    padding-left: 32px;
    padding-right: 32px;
    margin: 0 auto;
+   overflow: hidden;
 
 }
 .products-title {
@@ -36,10 +38,14 @@ color: #FD9222;
 }
 
 .products-list {
+    width: 100%;
     display: flex;
     list-style: none;
+    justify-content: center;
+    overflow: hidden;
 }
 .products-item {
+    padding-left: 20px;
     width: 270px;
 height: 364px;
     background: #FFFFFF;
@@ -47,6 +53,7 @@ border: 1px solid rgba(17, 17, 17, 0.1);
 border-radius: 15px;
     margin-right: 18px;
     margin-bottom: 25px;
+    width: calc((100% - 54px) / 4)
 }
 .chocolate-photo {
     width: 230px;
@@ -80,6 +87,12 @@ color: rgba(17, 17, 17, 0.7);
 text-align: center;
 }
 .cost {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+color: #111111;
     background: #FAFAFA;
 border: 1px solid rgba(17, 17, 17, 0.1);
 border-radius: 100px;
@@ -102,3 +115,7 @@ height: 13px;
     justify-content: center;
     
 }
+
+  .image-slider-wrapper {
+    text-align: center;
+  }
